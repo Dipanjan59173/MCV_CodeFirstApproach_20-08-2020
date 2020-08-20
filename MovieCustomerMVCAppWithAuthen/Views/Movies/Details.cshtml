@@ -1,0 +1,14 @@
+﻿@model MovieCustomerMVCAppWithAuthen.Models.Movie
+@{
+    ViewBag.Title = "Details";
+}
+
+<h4>Movie Details</h4>
+<h1>@Model.Name</h1>
+<h3>@Model.MovieGenre</h3>
+
+
+<div>
+    @Html.ActionLink("Back", "Index", "Movies", null, new { @class = "btn btn-success" })
+</div>
+
